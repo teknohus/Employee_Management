@@ -1,0 +1,50 @@
+{
+  "name": "@workfolio/desktop",
+  "productName": "Workfolio",
+  "version": "0.1.43",
+  "main": "build/electron/main.js",
+  "private": true,
+  "dependencies": {
+    "@workfolio/shared": "^0.1.0",
+    "active-win": "8.1.0",
+    "dayjs": "^1.8.35",
+    "dotenv": "^8.2.0",
+    "electron-context-menu": "^2.3.1",
+    "electron-devtools-installer": "^3.1.1",
+    "electron-log": "^4.2.4",
+    "electron-store": "^6.0.1",
+    "electron-updater": "^4.3.5",
+    "electron-util": "^0.14.2",
+    "jimp": "^0.16.1",
+    "jwt-decode": "^3.0.0",
+    "mac-screen-capture-permissions": "^1.1.0",
+    "moment-timezone": "^0.5.31",
+    "node-browser-history": "^2.4.12",
+    "node-mac-permissions": "2.2.0",
+    "node-notifier": "^9.0.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.4",
+    "screenshot-desktop": "1.12.7",
+    "socket.io-client": "4.1.2",
+    "string-similarity": "^4.0.4",
+    "system-icon": "git+https://github.com/DesignQube-Inc/node-system-icon.git",
+    "usb-detection": "^4.10.0"
+  },
+  "homepage": "./",
+  "author": {
+    "name": "Workfolio",
+    "email": "workfolio.io@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/designqube/workfolio-frontend.git"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
